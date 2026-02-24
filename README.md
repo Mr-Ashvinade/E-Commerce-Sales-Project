@@ -5,7 +5,7 @@ This project focuses on analyzing e-commerce sales data to understand sales perf
 The analysis is presented through an interactive Power BI dashboard designed for business users and decision-makers.
 
 The goal of this project is to turn raw sales data into actionable business insights.
-
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 📂 Dataset Information
 
 The dataset contains e-commerce transaction details such as:
@@ -23,6 +23,7 @@ Sales
 Profit
 
 Data was provided in Excel/CSV format and used directly for analysis.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 🛠️ Tools & Technologies
 
@@ -33,6 +34,7 @@ Microsoft Excel – Initial data exploration
 Python (Pandas) – Data cleaning & KPI calculations
 
 SQL – Querying and data validation
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 📊 Key Metrics (KPIs)
 
@@ -49,6 +51,7 @@ Sales & Profit by Category
 Top Revenue-Generating Products
 
 Monthly & Yearly Sales Trends
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 📈 Dashboard Insights
 🔹 Sales by Region
@@ -80,6 +83,7 @@ Profit contribution by product
 Average margin comparison by region
 
 Helps understand operational efficiency
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 🧮 Sample DAX Measures
 Total Sales = SUM(clean_sales_data[Sales])
@@ -91,6 +95,9 @@ AVERAGEX(
     clean_sales_data,
     DIVIDE(clean_sales_data[Profit], clean_sales_data[Sales])
 )
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 🧠 Key Business Findings
 
 A small number of products generate a large share of total revenue
@@ -100,6 +107,7 @@ Some regions have strong sales but comparatively lower profit margins
 Electronics and Home & Kitchen categories contribute the highest sales
 
 Sales show consistent trends with seasonal fluctuations
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 📁 Project Structure
 📦 E-Commerce-Data-Analysis
@@ -118,6 +126,7 @@ Refresh the dataset if required
 Use filters and slicers to explore insights
 
 Analyze trends and performance metrics
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 🎯 Project Use Case
 
@@ -130,6 +139,8 @@ Data Analysts
 Sales & Marketing Teams
 
 E-commerce Decision Makers
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 🗣️ Interview-Ready Summary
 
